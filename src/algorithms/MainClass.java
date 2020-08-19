@@ -8,9 +8,14 @@ public class MainClass {
 	{
 		int[] arr = {10, 15, 6 , 10, 3, 18, 2, 4};
 		
-		QuickSort.quickSort(arr, 0, arr.length);
+		//QuickSort.quickSort(arr, 0, arr.length);
 		
 		System.out.println(Arrays.toString(arr));
+		
+		BubbleSort.sort(arr);
+		
+		System.out.println(Arrays.toString(arr));
+		
 	}
 
 }
