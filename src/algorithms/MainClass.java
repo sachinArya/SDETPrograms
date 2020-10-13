@@ -10,11 +10,11 @@ public class MainClass {
 		
 		//QuickSort.quickSort(arr, 0, arr.length);
 		
-		System.out.println(Arrays.toString(arr));
+		//System.out.println(Arrays.toString(arr));
 		
 		BubbleSort.sort(arr);
 		
-		System.out.println(Arrays.toString(arr));
+		//System.out.println(Arrays.toString(arr));
 		
 	}
 
